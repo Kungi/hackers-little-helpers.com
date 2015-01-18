@@ -3,7 +3,7 @@ layout: post
 title: "Welcome to Hacker's litte Helpers"
 published: true
 author: Andreas 'Kungi' Klein
-categories: welcome
+category: Welcome
 ---
 
 # Why this blog? #
