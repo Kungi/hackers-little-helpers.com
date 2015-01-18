@@ -32,5 +32,5 @@ create a pull request for a new post (preferrably in the _drafts folder).
 
 # Other Blogs #
 
-- http://blog.commandlinekungfu.com/
-- http://www.commandlinefu.com/commands/browse
+- <http://blog.commandlinekungfu.com/>
+- <http://www.commandlinefu.com/commands/browse>
