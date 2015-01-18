@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to Hacker's litte Helpers"
+title: "Welcome to Hacker's little Helpers"
 published: true
 author: Andreas 'Kungi' Klein
 category: Welcome
