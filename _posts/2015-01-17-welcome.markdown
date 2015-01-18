@@ -1,8 +1,33 @@
 ---
 layout: post
-title: "Welcome to Hacker's Litte Helpers"
+title: "Welcome to Hacker's litte Helpers"
 published: true
+author: Andreas 'Kungi' Klein
 categories: welcome
 ---
 
-Welcome to the Hacker's little Helpers Blog.
+# Why this blog? #
+
+In 2007 I started a project called the [Commandline Tools Blog][ctb]. This silently faded into sleep
+after some time. On our last NoName e.V. meeting we had a very interesting [Show your Tools][syt]
+session and I was reminded of this past project.
+
+We showed the tiny things that make our life with the magic machine easier every day. The things you
+are surprised about when your friend does not know about them.
+
+[ctb]: http://blogs.noname-ev.de/commandline-tools/authors/3-The-Commandline-Tool-Blog
+[syt]: https://www.noname-ev.de/w/Show_your_Tools
+
+# What's it about? #
+
+This blog is about one of these tiny things every week. It can be a new tool like for example ranger
+or percol. A small tip to make your life easier.
+
+# Contribute #
+
+If you are interested and want to write a small article fork the gh-pages branch on [GitHub][gh] and
+create a pull request for a new post (preferrably in the _drafts folder).
+
+[gh]: https://github.com/Kungi/hackers-little-helpers.com/tree/gh-pages
+
+# Other Blogs #
