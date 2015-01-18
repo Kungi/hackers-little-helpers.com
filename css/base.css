@@ -37,8 +37,6 @@ body {
   line-height: 1.4;
   color: #333;
   text-shadow: 0 1px 0 rgba(255,255,255,1.0);
-  border-top: 4px solid #556270;
-  border-bottom: 4px solid #556270;
 }
 
 strong {
@@ -67,7 +65,7 @@ hr:before {
 
 .container {
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 800px;
   padding: 0 20px;
 }
 
@@ -241,9 +239,6 @@ p.intro a {
   color: #55acee;
 }
 
-h1 {
-  margin-left: 20px;
-}
 h1.words {
   color: #DB2C17;
 }
