@@ -4,3 +4,61 @@ title: "A literate emacs config in org-mode"
 author: Andreas 'Kungi' Klein
 categories: emacs org-mode
 ---
+
+
+# Why would you want to do this?
+
+Emacs configs can get out of hand and quite unreadable very fast. There are two
+reasons for keeping your emacs config in org mode.
+
+1. Folding and neatly organizing your emacs config.
+2. Annotating your emacs config nicely in a literate style
+
+# What you need
+
+I keep everything emacs related in `~/.dotfiles/emacs.d`. There I have two
+config files.
+
+- `emacs-local.org` - Here I keep some mac specific settings
+- `emacs.org` - My complete emacs config
+
+Everytime on emacs startup I load these two files through org-babel.
+
+```emacs-lisp
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; load neatly organized org file!
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Local emacs config
+(org-babel-load-file "~/.dotfiles/emacs.d/emacs-local.org")
+(org-babel-load-file "~/.dotfiles/emacs.d/emacs.org")
+
+```
+
+Just keep your emacs config in an org file. Here is an examle from my `emacs.org`
+(of course it looks much better in org mode).
+
+```
+* sticky-windows / dedicated
+  #+begin_src emacs-lisp
+    (require 'sticky-windows)
+    (global-set-key (kbd "C-x 0") 'sticky-window-delete-window)
+    (global-set-key (kbd "C-x 1") 'sticky-window-delete-other-windows)
+
+    (require 'dedicated)
+    (global-set-key (kbd "C-x 9") (lambda ()
+                                    (interactive)
+                                    (dedicated-mode 'toggle)))
+
+  #+end_src
+* no focus follows mouse
+  #+begin_src emacs-lisp
+  (setq mouse-autoselect-window nil)
+  #+end_src
+* restclient
+  #+begin_src emacs-lisp
+  (require 'restclient)
+  #+end_src
+```
+
+You can easily insert the `#+begin_src emacs-lisp` by typing `<s` followed by
+`TAB` in org-mode.
