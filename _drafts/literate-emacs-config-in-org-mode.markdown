@@ -4,12 +4,11 @@ title: "A literate emacs config in org-mode"
 author: Andreas 'Kungi' Klein
 categories: emacs org-mode
 ---
-
-
 # Why would you want to do this?
 
-Emacs configs can get out of hand and quite unreadable very fast. There are two
-reasons for keeping your emacs config in org mode.
+It is the nature of an emacs config to be always growing.  These configs can get
+quite unreadable very fast. Org mode can help in this case. There are two main
+reasons to write your emacs config in org mode.
 
 1. Folding and neatly organizing your emacs config.
 2. Annotating your emacs config nicely in a literate style
