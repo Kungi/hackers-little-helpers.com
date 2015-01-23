@@ -3,3 +3,4 @@ markdown: redcarpet
 hlighlighter: true
 url: http://hackers-little-helpers.com
 description: Hackers little Helpers Blog
+exclude: [.hyde.el]
