@@ -1,27 +1,27 @@
 ---
 layout: post
-title: "A literate emacs config in org-mode"
+title: "A literate Emacs config in org-mode"
 author: Andreas 'Kungi' Klein
 categories: emacs org-mode
 ---
 # Why would you want to do this?
 
-It is the nature of an emacs config to be always growing.  These configs can get
+It is the nature of an Emacs config to be always growing.  These configs can get
 quite unreadable very fast. Org mode can help in this case. There are two main
-reasons to write your emacs config in org mode.
+reasons to write your Emacs config in org mode.
 
-1. Folding and neatly organizing your emacs config.
-2. Annotating your emacs config nicely in a literate style
+1. Folding and neatly organizing your Emacs config.
+2. Annotating your Emacs config nicely in a literate style
 
 # What you need
 
-I keep everything emacs related in `~/.dotfiles/emacs.d`. There I have two
+I keep everything Emacs related in `~/.dotfiles/emacs.d`. There I have two
 config files.
 
 - `emacs-local.org` - Here I keep some mac specific settings
-- `emacs.org` - My complete emacs config
+- `emacs.org` - My complete Emacs config
 
-Everytime on emacs startup I load these two files through org-babel.
+Every time on Emacs startup I load these two files through org-babel.
 
 ```emacs-lisp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -33,7 +33,7 @@ Everytime on emacs startup I load these two files through org-babel.
 
 ```
 
-Just keep your emacs config in an org file. Here is an examle from my `emacs.org`
+Just keep your Emacs config in an org file. Here is an example from my `emacs.org`
 (of course it looks much better in org mode).
 
 ```
