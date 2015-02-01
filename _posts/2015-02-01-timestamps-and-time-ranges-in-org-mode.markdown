@@ -5,7 +5,7 @@ author: Andreas 'Kungi' Klein
 categories: emacs org-mode
 ---
 
-In org-mode there are two kinds of timestamps. Active and inactive ones.  This
+In org-mode there are two kinds of timestamps, active and inactive.  This
 is an inactive timestamp `[2015-01-29 Thu]` and this is an active one
 `<2015-01-29 Thu>`. Active timestamps can be clicked on and link to the agenda.
 
