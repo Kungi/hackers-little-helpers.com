@@ -1,5 +1,5 @@
 name: White Paper
-markdown: redcarpet
+markdown: kramdown
 hlighlighter: true
 url: http://hackers-little-helpers.com
 description: Hackers little Helpers Blog
