@@ -23,20 +23,19 @@ config files.
 
 Every time on Emacs startup I load these two files through org-babel.
 
-```emacs-lisp
+~~~
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; load neatly organized org file!
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Local emacs config
 (org-babel-load-file "~/.dotfiles/emacs.d/emacs-local.org")
 (org-babel-load-file "~/.dotfiles/emacs.d/emacs.org")
-
-```
+~~~
 
 Just keep your Emacs config in an org file. Here is an example from my `emacs.org`
 (of course it looks much better in org mode).
 
-```
+~~~
 * sticky-windows / dedicated
   #+begin_src emacs-lisp
     (require 'sticky-windows)
@@ -57,7 +56,7 @@ Just keep your Emacs config in an org file. Here is an example from my `emacs.or
   #+begin_src emacs-lisp
   (require 'restclient)
   #+end_src
-```
+~~~
 
 You can easily insert the `#+begin_src emacs-lisp` by typing `<s` followed by
 `TAB` in org-mode.
