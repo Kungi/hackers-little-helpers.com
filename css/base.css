@@ -249,12 +249,6 @@ h1.link .desc {
   font-weight: normal;
   color: #000;
 }
-@media only screen and (max-width: 700px) {
-  h1 {
-    font-size: 48px;
-    letter-spacing: 0;
-  }
-}
 
 h2 {
   margin: 2.0em 0 -0.5em 0;
@@ -542,4 +536,8 @@ code.html span.doctype {
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
-/* @end */
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}

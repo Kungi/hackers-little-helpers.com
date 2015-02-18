@@ -31,3 +31,6 @@ create a pull request for a new post (preferrably in the _drafts folder).
 [gh]: https://github.com/Kungi/hackers-little-helpers.com/tree/gh-pages
 
 # Other Blogs #
+
+- <http://blog.commandlinekungfu.com/>
+- <http://www.commandlinefu.com/commands/browse>
