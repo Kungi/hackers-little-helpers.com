@@ -12,7 +12,7 @@ of this blog.
 
 ![Hyde user interface](/images/hyde-example.png){: .center-image }
 
-For hyde to work you have to craete a .hyle.el file in your blogs
+For hyde to work you have to craete a `.hyde.el` file in your blogs
 main directory.
 
 This blog uses the following:
