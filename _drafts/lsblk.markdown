@@ -1,0 +1,28 @@
+---
+layout: post
+title: "lsblk - check the ground before you walk along"
+author: cherti
+---
+
+Everyone knows it: once in a while one ends up in a new system and has no idea how it is set up.
+
+A tool to be used in this case is `lsblk`. Just type it and you'll know what you're up against.
+
+
+~~~
+	$ lsblk
+	NAME       MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINT
+	sda          8:0    0  100G  0 disk
+	├─sda1       8:2    0 699,5G  0 part  /boot
+	├─sda2       8:2    0 699,5G  0 part
+	│ └─vol    254:0    0 699,5G  0 lvm
+	│   └─vol  252:0    0 699,5G  0 crypt /
+	└─sda3       8:3    0   512M  0 part
+	sdb          8:16   0 465,8G  0 disk
+	sdc          8:32   0 238,5G  0 disk  /home
+	├─sdc1       8:33   0   100M  0 part  /data
+	└─sdc2       8:34   0 209,9G  0 part
+~~~
+
+
+Another extremely useful flag is the `lsblk -f`, but that you can try out for yourself. :)
