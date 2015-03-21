@@ -2,6 +2,7 @@
 layout: post
 title: "Use use-package to tidy up your emacs config"
 author: Andreas "Kungi" Klein
+categories: emacs
 draft-created-date: "2015-01-29 19:48:17 +0100"
 ---
 Many emacs configurations are an unorganized mess. [use-package][] helps with

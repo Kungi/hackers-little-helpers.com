@@ -2,6 +2,7 @@
 layout: post
 title: "lsblk - check the ground before you walk along"
 author: cherti
+categories: tool unix
 ---
 
 Everyone knows it: once in a while one ends up in a new system and has no idea how it is set up.

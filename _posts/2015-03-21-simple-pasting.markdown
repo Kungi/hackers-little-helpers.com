@@ -2,7 +2,7 @@
 layout: post
 title: "A small trick for copy-paste"
 author: koebi
-categories: tool
+categories: tool unix
 ---
 
 Every once in a while, i stumble upon the problem of wanting to paste output of

@@ -3,7 +3,7 @@ layout: post
 title: "Managing jekyll in emacs with hyde.el"
 author: Andreas 'Kungi' Klein
 draft-created-date: "2015-01-23 10:49:44 +0100"
-categories: emacs
+categories: emacs jekyll
 ---
 [Hyde][] is a quite minimal jekyll frontend for emacs. It depends on
 your jekyll files being stored in a git repository (what you should do
