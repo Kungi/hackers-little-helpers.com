@@ -33,7 +33,7 @@ or else. Quite convenient :))
 
 - - -
 Für die deutschsprachige Welt: Dieser Post existiert auch auf deutsch unter
-[http://blog.ezelo.de/simple_pasting/](http://blog.ezelo.de), meinem eigenen Blog, auf
+[http://blog.ezelo.de/simple_pasting/](http://blog.ezelo.de/simple_pasting/), meinem eigenen Blog, auf
 dem ich so poste, was mir unter die Finger kommt. Erwartet nicht zu viel Inhalt
 ;)
 
