@@ -1,5 +1,16 @@
 ---
 layout: post
-title: "latexmk"
+title: "latexmk - automate latex compilation"
+author: Andreas 'Kungi' Klein
 draft-created-date: "2015-05-22 13:45:49 +0200"
 ---
+While writing my bachelor and master thesis in tex I often needed to compile my
+LaTeX files more than once to get the crossreferences or table of contents right.
+
+[Latexmk][] automates this quite well. It is a little Perl script which includes
+support for LuaTex and XeTeX. It can also clean the latex folder from all `.aux`
+and other files with the `-c` option.
+
+[Latexmk]: https://www.ctan.org/pkg/latexmk/?lang=en
+
+
