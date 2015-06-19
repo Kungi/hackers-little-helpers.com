@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ack und ag - searching source code the fast way"
+title: "ncdu - curses based disk usage"
 author: cherti
 categories: tool
 ---
