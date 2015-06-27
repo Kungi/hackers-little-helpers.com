@@ -8,6 +8,7 @@ draft-created-date: "2015-03-21 16:03:59 +0100"
 Ever wanted to save a long-running commands output, but were annoyed that you then have to open the file to see what's going on and how far the command has run?
 
 Something like
+
 ~~~
 ls -lh > myfile.txt
 ~~~
@@ -28,6 +29,7 @@ You also can append to a file:
 ls -lh >> myfile.txt
 ~~~
 corresponds to
+
 ~~~
 ls -lh | tee -a myfile.txt
 ~~~
